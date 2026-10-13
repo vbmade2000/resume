@@ -88,10 +88,13 @@ Active contributor to industry-leading open-source projects (merged pull request
 - [BonsaiDB](https://github.com/khonsulabs/bonsaidb/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000)
 - [ReductStore](https://github.com/reductstore/reductstore/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000)
   - [reduct-cli](https://github.com/reductstore/reduct-cli/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000)
+- [uutils](https://github.com/uutils)
+  - [util-linux (lsns)](https://github.com/uutils/util-linux/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000)
+  - [acl](https://github.com/uutils/acl/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000)
 
 ## Personal Projects
 
-[thumber](https://github.com/vbmade2000/thumber) · [Dodo](https://github.com/vbmade2000/Dodo) · [stresster](https://github.com/vbmade2000/stresster) · [uutils - lsns](https://github.com/uutils/util-linux/tree/main/src/uu/lsns) · [emailyzer](https://github.com/vbmade2000/emailyzer)
+[thumber](https://github.com/vbmade2000/thumber) · [Dodo](https://github.com/vbmade2000/Dodo) · [stresster](https://github.com/vbmade2000/stresster) · [emailyzer](https://github.com/vbmade2000/emailyzer)
 
 ## Education
 
