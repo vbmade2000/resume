@@ -1,2 +1,2 @@
-# resume
-Latest CV
+# Resume
+Latest CV of Malhar Vora
