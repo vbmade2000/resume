@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Malhar Vora — Resume</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  body {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #1f2328;
+    line-height: 1.45;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px;
+    font-size: 11pt;
+  }
+  h1 { font-size: 24pt; margin: 0 0 2px 0; letter-spacing: 0.5px; }
+  .subtitle { font-style: italic; color: #444; margin: 0 0 8px 0; font-size: 11.5pt; }
+  .contact { font-size: 10pt; color: #333; margin-bottom: 10px; }
+  .contact a { color: #1a5276; text-decoration: none; }
+  hr { border: none; border-top: 1.5px solid #1a5276; margin: 10px 0 16px 0; }
+  h2 {
+    font-size: 12.5pt; text-transform: uppercase; letter-spacing: 1px;
+    color: #1a5276; border-bottom: 1px solid #c6d4dd; padding-bottom: 3px;
+    margin-top: 20px; margin-bottom: 8px;
+  }
+  h3 { font-size: 11.5pt; margin: 10px 0 1px 0; }
+  h3 a { color: #1f2328; text-decoration: none; }
+  .role-line { font-weight: bold; font-size: 10.5pt; margin: 0 0 4px 0; }
+  .role-line .dates { font-weight: normal; font-style: italic; color: #444; }
+  ul { margin: 4px 0 6px 0; padding-left: 20px; }
+  li { margin-bottom: 2px; }
+  .tech { font-style: italic; color: #444; font-size: 9.8pt; margin: 2px 0 10px 0; }
+  a { color: #1a5276; }
+  .edu-item { margin-bottom: 6px; }
+  .edu-item .degree { font-weight: bold; }
+  .edu-item .dates { font-style: italic; color: #444; }
+  .edu-item .school { display: block; }
+</style>
+</head>
+<body>
+
+<h1>Malhar Vora</h1>
+<p class="subtitle">Senior Software Engineer &middot; Systems &amp; Infrastructure</p>
+<p class="contact">
+  <a href="mailto:mlvora.2010@gmail.com">Email</a> &middot;
+  <a href="https://github.com/vbmade2000">GitHub</a> &middot;
+  <a href="https://www.linkedin.com/in/malharvora/">LinkedIn</a> &middot;
+  <a href="https://medium.com/@vbmade2000">Medium</a> &middot;
+  (+91) 9689189332
+</p>
+<hr>
+
+<h2>Professional Summary</h2>
+<p>Software engineer with 10+ years of experience in systems software development, primarily in Rust and Python. Open-source contributor with patches merged into projects including Kubernetes, HashiCorp Vault, and Amazon Firecracker. Passionate about systems programming.</p>
+
+<h2>Core Skills</h2>
+<ul>
+  <li><strong>Languages:</strong> Rust, Python</li>
+  <li><strong>Infrastructure:</strong> Linux, Docker, AWS (S3, EMR, Lambda, RDS, Cognito, SES, SNS, SQS), Terraform, gRPC, Prometheus</li>
+  <li><strong>Storage &amp; Messaging:</strong> LustreFS, PostgreSQL, Apache Spark (EMR)</li>
+  <li><strong>Tools:</strong> Git, Ansible, LXC</li>
+</ul>
+
+<h2>Professional Experience</h2>
+
+<h3><a href="https://www.ddn.com/">DataDirect Networks (DDN)</a> — Remote (India)</h3>
+<p class="role-line">Senior Software Engineer <span class="dates">&middot; Dec 2024 – April 2026</span></p>
+<ul>
+  <li>Developed control plane components for DDN's EXAScaler AI/HPC Storage platform, a Lustre-based petabyte-scale solution.</li>
+  <li>Implemented system services in Rust interfacing with LustreFS internals.</li>
+  <li>Used Prometheus and gRPC in the platform.</li>
+</ul>
+<p class="tech">Tech: Rust &middot; Linux &middot; LustreFS &middot; gRPC &middot; Prometheus</p>
+
+<h3><a href="https://example.com">Oreus Solutions LLP</a> — Anjar, India</h3>
+<p class="role-line">Founder <span class="dates">&middot; Jul 2024 – Present</span></p>
+<ul>
+  <li>Designed a reusable Terraform framework to provision AWS infrastructure for a SaaS product.</li>
+  <li>Integrated serverless workflows using AWS Lambda, SQS, SNS, SES, and Cognito.</li>
+</ul>
+<p class="tech">Tech: Terraform &middot; AWS (Lambda, RDS, Cognito, SES, SNS, S3, SQS) &middot; Python &middot; PostgreSQL</p>
+
+<h3><a href="https://www.openanalytics.eu/">OpenAnalytics NV</a> — Remote (International)</h3>
+<p class="role-line">Rustacean (Systems Engineer) <span class="dates">&middot; Apr 2020 – Jun 2024</span></p>
+<ul>
+  <li>Built a data pipeline enabling users to upload, download, analyze, and archive terabytes of scientific data.</li>
+  <li>Engineered core services in Rust, integrated with AWS S3 and Spark on EMR.</li>
+</ul>
+<p class="tech">Tech: Rust &middot; PostgreSQL &middot; AWS (S3, EMR + Spark) &middot; RHEL 7</p>
+
+<h3><a href="https://www.seagate.com/">Seagate Technologies</a> — Pune, India</h3>
+<p class="role-line">Engineer II <span class="dates">&middot; Jul 2015 – Sep 2017 &middot; May 2018 – Mar 2020</span></p>
+<ul>
+  <li>Maintained the control plane of ClusterStor HPC storage product and a petabyte-scale Software Defined Storage platform.</li>
+  <li>Developed and maintained a plugin-based framework for management and monitoring of storage solutions.</li>
+  <li>Built and maintained an LXC-based testing framework for automated regression testing.</li>
+  <li>Received the Significant Contribution Award twice for outstanding engineering impact.</li>
+</ul>
+<p class="tech">Tech: Python &middot; Twisted &middot; CentOS 7 &middot; Ansible &middot; LXC &middot; RabbitMQ</p>
+
+<h3><a href="https://www.loodse.com/">Loodse GmbH</a> — Remote (International)</h3>
+<p class="role-line">Part-time Intern <span class="dates">&middot; Feb 2018 – May 2018</span></p>
+<ul>
+  <li>Developed Kubernetes training content and contributed to an internal Kubernetes operator.</li>
+</ul>
+<p class="tech">Tech: Docker &middot; Kubernetes &middot; Golang</p>
+
+<h3><a href="https://sighup.io/">Sighup.io</a> — Remote (International)</h3>
+<p class="role-line">Part-time Intern <span class="dates">&middot; Sep 2017 – Oct 2017</span></p>
+<ul>
+  <li>Set up Kubernetes clusters and wrote Ansible playbooks for infrastructure automation.</li>
+</ul>
+<p class="tech">Tech: Docker &middot; Kubernetes &middot; Ansible</p>
+
+<h3><a href="https://www.aziro.com/en">Clogeny Technologies (now Aziro)</a> — Pune</h3>
+<p class="role-line">Software Engineer <span class="dates">&middot; May 2015 – Jul 2015</span></p>
+<ul>
+  <li>Contributed to 'Campaign Store' product development.</li>
+</ul>
+<p class="tech">Tech: Python &middot; Twisted &middot; Docker &middot; CentOS 7</p>
+
+<h3><a href="https://www.clariontech.com/">Clarion Technologies</a> — Pune</h3>
+<p class="role-line">Software Engineer L1 <span class="dates">&middot; Jun 2014 – May 2015</span></p>
+<ul>
+  <li>Built and maintained web application features using Python/Django on Ubuntu.</li>
+</ul>
+<p class="tech">Tech: Python &middot; Ubuntu</p>
+
+<h2>Open Source Contributions</h2>
+<p>Active contributor to industry-leading open-source projects (merged pull requests only):</p>
+<ul>
+  <li><a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">Kubernetes</a></li>
+  <li><a href="https://github.com/hashicorp/vault/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">HashiCorp Vault</a></li>
+  <li><a href="https://github.com/firecracker-microvm/firecracker/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">Amazon Firecracker</a></li>
+  <li><a href="https://github.com/kata-containers/agent/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">Intel Kata Containers</a></li>
+  <li><a href="https://github.com/cri-o/cri-o/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">CRI-O</a></li>
+  <li><a href="https://github.com/mozilla/mig/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">Mozilla MIG</a></li>
+  <li><a href="https://github.com/cloudevents/spec/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">CloudEvents Spec</a></li>
+  <li><a href="https://github.com/khonsulabs/bonsaidb/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">BonsaiDB</a></li>
+  <li><a href="https://github.com/reductstore/reductstore/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">ReductStore</a>
+    <ul><li><a href="https://github.com/reductstore/reduct-cli/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">reduct-cli</a></li></ul>
+  </li>
+  <li><a href="https://github.com/uutils">uutils</a>
+    <ul>
+      <li><a href="https://github.com/uutils/util-linux/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">util-linux (lsns)</a></li>
+      <li><a href="https://github.com/uutils/acl/pulls?q=is%3Apr+is%3Amerged+author%3Avbmade2000">acl</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Personal Projects</h2>
+<p>
+  <a href="https://github.com/vbmade2000/thumber">thumber</a> &middot;
+  <a href="https://github.com/vbmade2000/Dodo">Dodo</a> &middot;
+  <a href="https://github.com/vbmade2000/stresster">stresster</a> &middot;
+  <a href="https://github.com/vbmade2000/emailyzer">emailyzer</a>
+</p>
+
+<h2>Education</h2>
+<div class="edu-item"><span class="degree">Master of Computer Applications (MCA)</span> <span class="dates">&middot; 2009 – 2012</span><span class="school">Gujarat Technological University</span></div>
+<div class="edu-item"><span class="degree">PG Diploma in Computer Applications</span> <span class="dates">&middot; 2006 – 2009</span><span class="school">Center for Development of Advanced Computing (C-DAC)</span></div>
+<div class="edu-item"><span class="degree">Bachelor of Computer Applications (BCA)</span> <span class="dates">&middot; 2006 – 2009</span><span class="school">KSKV Kachchh University</span></div>
+
+<h2>Awards &amp; Certifications</h2>
+<ul>
+  <li>Significant Contribution Award (&times;2) — Seagate Technologies</li>
+  <li>Best Intern Award — Serpent Consulting Services</li>
+  <li>Coursera Specialization: Programming in Google Go</li>
+</ul>
+
+<h2>Volunteer &amp; Activities</h2>
+<ul>
+  <li>Voluntary IT Manager — Local Animal Shelter</li>
+  <li>Voluntary Computer Teacher — Local Orphanage</li>
+  <li>Ex-Member, Rotary International</li>
+</ul>
+
+</body>
+</html>
